@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrocar Padilla - Taller Mecánico Especializado</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" alt="Electrocar Padilla logo" style="width: 120px; height: auto;">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+          </li>
+
+          <li>
+            <a href="#services" class="navbar-link" data-nav-link>Servicios</a>
+          </li>
+
+          <li>
+            <a href="#works" class="navbar-link" data-nav-link>Nuestros Trabajos</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>Nosotros</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+
+        <div class="header-contact">
+          <a href="tel:+1234567890" class="contact-link">+1 (234) 567-890</a>
+
+          <span class="contact-time">Lun - Vie: 8:00 am - 6:00 pm | Sáb: 8:00 am - 2:00 pm</span>
+        </div>
+
+        <a href="#contact" class="btn" aria-labelledby="aria-label-txt">
+          <ion-icon name="call-outline"></ion-icon>
+
+          <span id="aria-label-txt">Contactar</span>
+        </a>
+
+        <a href="#" class="btn user-btn" aria-label="Profile">
+          <ion-icon name="person-outline"></ion-icon>
+        </a>
+
+        <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+          <span class="one"></span>
+          <span class="two"></span>
+          <span class="three"></span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+            <h2 class="h1 hero-title">Electrocar Padilla</h2>
+            <h3 class="hero-subtitle">Taller Mecánico Especializado</h3>
+
+            <p class="hero-text">
+              Especialistas en electricidad automotriz, mantenimiento general, diagnóstico computarizado y reparación de alternadores y arranques. Más de 15 años de experiencia brindando servicios de calidad.
+            </p>
+          </div>
+
+          <div class="hero-banner"></div>
+
+          <form action="" class="hero-form" id="contact">
+
+            <div class="input-wrapper">
+              <label for="input-1" class="input-label">Nombre completo</label>
+
+              <input type="text" name="full-name" id="input-1" class="input-field"
+                placeholder="Ingresa tu nombre completo">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-2" class="input-label">Teléfono</label>
+
+              <input type="tel" name="phone" id="input-2" class="input-field" placeholder="Tu número de teléfono">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="input-3" class="input-label">Tipo de servicio</label>
+
+              <select name="service" id="input-3" class="input-field">
+                <option value="">Selecciona un servicio</option>
+                <option value="electricidad">Electricidad Automotriz</option>
+                <option value="mantenimiento">Mantenimiento General</option>
+                <option value="diagnostico">Diagnóstico Computarizado</option>
+                <option value="alternador">Reparación de Alternadores</option>
+              </select>
+            </div>
+
+            <button type="submit" class="btn">Solicitar Cotización</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICIOS PRINCIPALES
+      -->
+
+      <section class="section featured-car" id="services">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Nuestros Servicios</h2>
+
+            <a href="#contact" class="featured-car-link">
+              <span>Contactar</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="featured-car-list">
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=440&h=300&fit=crop" alt="Electricidad Automotriz" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Electricidad Automotriz</a>
+                    </h3>
+
+                    <data class="year" value="especialidad">Especialidad</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Sistema Eléctrico</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">ECU y Sensores</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="bulb-outline"></ion-icon>
+
+                      <span class="card-item-text">Luces y Faros</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="battery-charging-outline"></ion-icon>
+
+                      <span class="card-item-text">Baterías</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>Desde $50</strong> diagnóstico
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Agregar a favoritos">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn">Cotizar</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=440&h=300&fit=crop" alt="Mantenimiento General" loading="lazy" width="440" height="300"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Mantenimiento General</a>
+                    </h3>
+
+                    <data class="year" value="preventivo">Preventivo</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="oil-outline"></ion-icon>
+
+                      <span class="card-item-text">Cambio de Aceite</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="filter-outline"></ion-icon>
+
+                      <span class="card-item-text">Filtros</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="car-outline"></ion-icon>
+
+                      <span class="card-item-text">Frenos</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="settings-outline"></ion-icon>
+
+                      <span class="card-item-text">Alineación</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>Desde $80</strong> servicio
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Agregar a favoritos">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn">Cotizar</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=440&h=300&fit=crop" alt="Diagnóstico Computarizado" loading="lazy" width="440"
+                    height="300" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Diagnóstico Computarizado</a>
+                    </h3>
+
+                    <data class="year" value="tecnologia">Tecnología</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="laptop-outline"></ion-icon>
+
+                      <span class="card-item-text">Scanner OBD</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="analytics-outline"></ion-icon>
+
+                      <span class="card-item-text">Análisis Completo</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="document-text-outline"></ion-icon>
+
+                      <span class="card-item-text">Reporte Detallado</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <span class="card-item-text">Rápido</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>Desde $60</strong> diagnóstico
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Agregar a favoritos">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn">Cotizar</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=440&h=300&fit=crop" alt="Reparación de Alternadores" loading="lazy" width="440"
+                    height="300" class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Reparación de Alternadores</a>
+                    </h3>
+
+                    <data class="year" value="especialidad">Especialidad</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="refresh-outline"></ion-icon>
+
+                      <span class="card-item-text">Alternadores</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="play-outline"></ion-icon>
+
+                      <span class="card-item-text">Arranques</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="construct-outline"></ion-icon>
+
+                      <span class="card-item-text">Rebobinado</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                      <span class="card-item-text">Garantía</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                    <p class="card-price">
+                      <strong>Desde $120</strong> reparación
+                    </p>
+
+                    <button class="btn fav-btn" aria-label="Agregar a favoritos">
+                      <ion-icon name="heart-outline"></ion-icon>
+                    </button>
+
+                    <button class="btn">Cotizar</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NUESTROS TRABAJOS
+      -->
+
+      <section class="section blog" id="works">
+        <div class="container">
+
+          <h2 class="h2 section-title">Nuestros Trabajos</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=400&h=300&fit=crop" alt="Reparación de Sistema Eléctrico" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Electricidad</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Reparación Completa de Sistema Eléctrico</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-15">Enero 15, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="5">5.0</data>
+                    </div>
+
+                  </div>
+
+                  <p class="work-description">
+                    Diagnóstico y reparación completa del sistema eléctrico de un vehículo con problemas de arranque. Trabajo realizado con tecnología de última generación.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=400&h=300&fit=crop" alt="Mantenimiento Preventivo" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Mantenimiento</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Mantenimiento Preventivo Completo</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-10">Enero 10, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="5">5.0</data>
+                    </div>
+
+                  </div>
+
+                  <p class="work-description">
+                    Servicio completo de mantenimiento incluyendo cambio de aceite, filtros, revisión de frenos y alineación. Cliente satisfecho con la calidad del servicio.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="Diagnóstico Computarizado" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Diagnóstico</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Diagnóstico Computarizado Avanzado</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-08">Enero 8, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="5">5.0</data>
+                    </div>
+
+                  </div>
+
+                  <p class="work-description">
+                    Uso de scanner OBD-II para identificar problemas en el motor y sistemas electrónicos. Diagnóstico preciso que permitió resolver el problema rápidamente.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop" alt="Reparación de Alternador" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Alternadores</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Rebobinado de Alternador</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-05">Enero 5, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="5">5.0</data>
+                    </div>
+
+                  </div>
+
+                  <p class="work-description">
+                    Rebobinado completo de alternador con componentes de alta calidad. Trabajo especializado que garantiza el funcionamiento óptimo del sistema de carga.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #PROCESO DE TRABAJO
+      -->
+
+      <section class="section get-start" id="about">
+        <div class="container">
+
+          <h2 class="h2 section-title">Nuestro Proceso de Trabajo</h2>
+
+          <ul class="get-start-list">
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-1">
+                  <ion-icon name="call-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">1. Contacto Inicial</h3>
+
+                <p class="card-text">
+                  Llámanos o visita nuestro taller para describir el problema de tu vehículo. Te brindaremos una evaluación inicial gratuita.
+                </p>
+
+                <a href="#contact" class="card-link">Contactar</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-2">
+                  <ion-icon name="search-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">2. Diagnóstico</h3>
+
+                <p class="card-text">
+                  Realizamos un diagnóstico completo usando tecnología avanzada para identificar exactamente qué necesita tu vehículo.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-3">
+                  <ion-icon name="document-text-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">3. Cotización</h3>
+
+                <p class="card-text">
+                  Te proporcionamos una cotización detallada y transparente con todos los costos antes de comenzar cualquier trabajo.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="get-start-card">
+
+                <div class="card-icon icon-4">
+                  <ion-icon name="construct-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">4. Reparación</h3>
+
+                <p class="card-text">
+                  Nuestros técnicos especializados realizan el trabajo con la más alta calidad y te mantienen informado del progreso.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG TÉCNICO
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title">Consejos Técnicos</h2>
+
+          <ul class="blog-list has-scrollbar">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=400&h=300&fit=crop" alt="Mantenimiento del Sistema Eléctrico" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Electricidad</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Cómo Mantener el Sistema Eléctrico de tu Auto</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-20">Enero 20, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="12">12</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?w=400&h=300&fit=crop" alt="Señales de Problemas en el Alternador" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Alternadores</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Señales de que tu Alternador Necesita Reparación</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-18">Enero 18, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="8">8</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop" alt="Diagnóstico Computarizado" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Diagnóstico</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Importancia del Diagnóstico Computarizado</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-16">Enero 16, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="15">15</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=300&fit=crop" alt="Mantenimiento Preventivo" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Mantenimiento</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Mantenimiento Preventivo: Clave para la Durabilidad</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-14">Enero 14, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="20">20</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="https://images.unsplash.com/photo-1486754735734-325b5831c3ad?w=400&h=300&fit=crop" alt="Problemas Comunes" loading="lazy"
+                      class="w-100">
+                  </a>
+
+                  <a href="#" class="btn card-badge">Consejos</a>
+
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Problemas Eléctricos Más Comunes en Vehículos</a>
+                  </h3>
+
+                  <div class="card-meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2024-01-12">Enero 12, 2024</time>
+                    </div>
+
+                    <div class="comments">
+                      <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+
+                      <data value="25">25</data>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Electrocar Padilla logo" style="width: 120px; height: auto;">
+          </a>
+
+          <p class="footer-text">
+            Electrocar Padilla es un taller mecánico especializado con más de 15 años de experiencia en electricidad automotriz, mantenimiento general, diagnóstico computarizado y reparación de alternadores y arranques.
+          </p>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Servicios</p>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Electricidad Automotriz</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Mantenimiento General</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Diagnóstico Computarizado</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Reparación de Alternadores</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Información</p>
+          </li>
+
+          <li>
+            <a href="#about" class="footer-link">Nosotros</a>
+          </li>
+
+          <li>
+            <a href="#works" class="footer-link">Nuestros Trabajos</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="footer-link">Consejos Técnicos</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="footer-link">Contacto</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Horarios de Atención</p>
+          </li>
+
+          <li>
+            <span class="footer-link">Lunes - Viernes: 8:00 AM - 6:00 PM</span>
+          </li>
+
+          <li>
+            <span class="footer-link">Sábados: 8:00 AM - 2:00 PM</span>
+          </li>
+
+          <li>
+            <span class="footer-link">Domingos: Cerrado</span>
+          </li>
+
+          <li>
+            <a href="tel:+1234567890" class="footer-link">Tel: +1 (234) 567-890</a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-skype"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="mail-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="copyright">
+          &copy; 2024 <a href="#">Electrocar Padilla</a>. Todos los derechos reservados
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- 
+    - WhatsApp Floating Button
+  -->
+  <a href="https://wa.me/1234567890?text=Hola%20Electrocar%20Padilla,%20me%20interesa%20solicitar%20una%20cotización" 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <ion-icon name="logo-whatsapp"></ion-icon>
+  </a>
+
+</body>
+
+</html>
